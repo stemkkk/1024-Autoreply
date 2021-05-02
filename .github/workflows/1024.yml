@@ -6,7 +6,7 @@ on:
     branches:
       - Multi_User
   schedule:
-    - cron: '10 7,22 * * *'
+    - cron: '15 7,22 * * *'
 
 
 jobs:
