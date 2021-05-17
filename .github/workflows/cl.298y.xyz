@@ -26,7 +26,7 @@ jobs:
 
         pip3 install requests onetimepass pillow
 
-    - name: run 1024.py
+    - name: run cl.298y.xyz
       env:
         USER: ${{ secrets.USER }}
         PASSWORD: ${{ secrets.PASSWORD }}
@@ -35,4 +35,4 @@ jobs:
         CODEUSER: ${{ secrets.CODEUSER }}
         CODEPASS: ${{ secrets.CODEPASS }}
       run:
-        python3 1024.py
+        python3 cl.298y.xyz
